@@ -1,0 +1,113 @@
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #3b3b4f;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+
+
+  }
+
+  body::before {
+    content: "";
+    background-image: url("https://energiaenchile.cl/wp-content/uploads/2017/10/mineria_logistica_thumb_moviles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4; /* Cambia este valor para ajustar la opacidad de la imagen de fondo */
+    z-index: -1; /* Asegura que la imagen de fondo esté detrás del contenido */
+}
+
+
+
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 0 solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  textarea{
+    height: 7em;
+  }
+
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+
+
+  .center1 {
+    text-align: center;
+  }
+
+.Lineatitulo{
+  border-bottom: 5px solid white;
+  padding-bottom: 2px; 
+
+}
+
+
+  
+  
+  
