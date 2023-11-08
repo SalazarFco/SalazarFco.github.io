@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TikZJax</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tDi4OHSDxC3WHyN4ci7seDElaQAsD3RtEjMGj9aMyE9VvQ31BbbOtQ9WsMkHji3nGaLNncsaOGGYFTDEUhQ5yg" charset="UTF-8"></script><script src="tikzjax.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  
+  <body>
+    
+    <h1 id="tikzjax">Dibujo de Vigas Unidimensionales</h1>
+    
+    <p>
+      La aplicación presente en esta página permite dibujar una viga unidimensional con el lenguaje Tikz. Lo único que se necesita es precisar la longitud de la viga y los datos sobre los apoyos y fuerzas implicadas.
+    </p><br>
+
+    <p>Ingrese largo de la viga (m)</p>
+    <input id = "probandoctm1" required></input><br>
+
+    <p>Ingrese puntos de apoyo fijo en formato x1,x2,x3,...,xn</p>
+    <input id = "probandoctm2"></input><br>
+
+    <p>Ingrese puntos de apoyo movil en formato x1,x2,x3,...,xn</p>
+    <input id = "probandoctm3"></input><br>
+    
+    <button onclick="update()">
+      Dibujar
+    </button>
+
+    <section id="editor">
+     <p>Código Tikz Generado:</p>
+      <textarea id="code">Ingrese datos</textarea>
+
+   
+    </section>
+
+    <p>
+    <div id="output"></div>
+    </p>
+
+    <footer><hr/>
+      <p>
+      Creado por <a href="https://www.linkedin.com/in/francisco-salazar-candia-0305a7270/" target="_blank">Francisco Antonio Salazar Candia.</a>
+
+      </a> 
+      </p>
+    </footer>
+  </body>
+</html>
