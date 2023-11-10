@@ -1,15 +1,19 @@
 
 
 body {
-  width: 100%;
+  width: 75vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
   height: 100vh;
-  margin: 0;
-  background-color: white;
-  color: black;
-  font-family: Tahoma;
+  color: darkblue;
+  font-family: 'Computer Modern Typewriter';
   font-size: 16px;
-
-
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  background-size: cover; /* Hace que el fondo se ajuste y cubra toda la ventana de visualización */
+  background-repeat: no-repeat;
 }
 
 
@@ -20,13 +24,7 @@ h1 {
   text-align: center;
 }
 
-form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
+
 
 fieldset {
   border: none;
@@ -41,6 +39,10 @@ fieldset:last-of-type {
 label {
   display: block;
   margin: 0.5rem 0;
+}
+
+.kalisha{
+  padding-bottom: 2em;
 }
 
 input, p, button{
@@ -97,4 +99,18 @@ padding-bottom: 2px;
 
 }
 
+
+#output {
+  text-align: center; /* Alinea el texto dentro del div al centro */
+  display: flex; /* Utiliza el modelo de caja flexible para centrar verticalmente */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  height: 50vh; /* Establece la altura del div al 100% del viewport height para centrarlo verticalmente en la página */
+  border: 1px solid white; /* Agrega un borde blanco alrededor del contenedor */
+  padding: 10px; /* Añade un espacio interno para que el texto no esté pegado al borde */
+  display: inline-block;
+  background-color: white;
+  min-width: 300px; /* Establece el ancho del contenedor */
+  height: 100px;
+}
 
